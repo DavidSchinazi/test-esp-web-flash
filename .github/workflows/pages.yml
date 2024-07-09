@@ -30,6 +30,7 @@ jobs:
           mkdir site
           cp -R static site/
           echo BLAAAAAAAA > site/foo.html
+          kramdown README.md > site/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
