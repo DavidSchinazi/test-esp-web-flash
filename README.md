@@ -6,7 +6,7 @@ test test test.
 
 Bar bar bar.
 
-{: .skip-website}
+<!-- skip-website -->
 
 ## Baz
 
